@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chic Accessoires</title>
+    <link rel="stylesheet" href="style css.css">
+    <link rel="icon" href="../finprojet/img/images1.jpeg" type="image/icon">
+
+    
+</head>
+<body >
+    <nav class="navbar">
+        <div class="logo">
+            
+        </div>
+        <h1 id="mn">Etre élegant(e) avec nous </h1>
+        <ul>
+            <li><a href="#">Nouveautés</a></li>
+            <li><a href="#">Femmes</a></li>
+            <li><a href="#">Homme</a></li>
+            <li><a href="#">promo d'été</a></li>
+            <li><a href="#">contact</a></li>
+
+        </ul>
+    </nav>
+<section>
+    <form >
+        <label>Name:</label>
+        <input type="text" name="first name" placeholder="Type your name here" />
+        <br />
+  
+        <label>Number:</label>
+        <input type="number" name="number" value="******" />
+        <br />
+  
+        <label> votre adresee:</label>
+        <input type="text" name="adresee" placeholder="Type your adresse here" />
+        <br />
+  
+  
+        <label>Password:</label>
+        <input type="password" name="password" />
+        <input type="submit" value="Submit" />
+    </form>
+
+        <br />
+        <script>
+            function validateForm(e) {
+    e.preventDefault()
+    var name = document.loginForm.name.value
+    var Number = document.loginForm.Number.va
+   
+    var password = document.loginForm.password.value
+  
+   if (name.length==0)
+    return alert(`name is required`)
+   if (password.length<5)
+    return alert(`password length should more than 5`)
+if(number.length==8)
+return alert (number is required)
+    
+        </script>
+</section>
